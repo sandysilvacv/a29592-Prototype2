@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // Lancar um projetil do player 
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            // metodo para gerar um projetil no local do jogador
         }
     }
 }
