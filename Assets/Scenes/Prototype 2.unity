@@ -123,44 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &65890052 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1042440570788127510, guid: 82a65ac76e53b984e9ae002e319c5b99, type: 3}
-  m_PrefabInstance: {fileID: 1042440570811008018}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &65890054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65890052}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9675cc9180a581a48a76ad97613a0512, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 30
-  lowerBound: -10
---- !u!1 &70125365 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8632218821988928621, guid: b9077d12d609435439d4f2926cf05303, type: 3}
-  m_PrefabInstance: {fileID: 8632218821924047704}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &79547437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70125365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9675cc9180a581a48a76ad97613a0512, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 30
-  lowerBound: -10
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,25 +467,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!1 &643260299 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4363912545426550869, guid: bea7272846c183c42b90907ff61fba7f, type: 3}
-  m_PrefabInstance: {fileID: 4363912545934929886}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &650413889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 643260299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9675cc9180a581a48a76ad97613a0512, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 30
-  lowerBound: -10
 --- !u!1 &711004378
 GameObject:
   m_ObjectHideFlags: 0
@@ -554,9 +497,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 65890052}
-  - {fileID: 643260299}
-  - {fileID: 70125365}
+  - {fileID: 4363912545426550869, guid: bea7272846c183c42b90907ff61fba7f, type: 3}
+  - {fileID: 1042440570788127510, guid: 82a65ac76e53b984e9ae002e319c5b99, type: 3}
+  - {fileID: 8632218821988928621, guid: b9077d12d609435439d4f2926cf05303, type: 3}
 --- !u!4 &711004380
 Transform:
   m_ObjectHideFlags: 0
@@ -692,25 +635,6 @@ MonoBehaviour:
   speed: 10
   xRange: 10
   projectilePrefab: {fileID: 328700069660289364, guid: ebe544ae823ff824ea149e367773a316, type: 3}
---- !u!1 &1159372100 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 328700069660289364, guid: ebe544ae823ff824ea149e367773a316, type: 3}
-  m_PrefabInstance: {fileID: 328700068635210768}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1161298821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159372100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9675cc9180a581a48a76ad97613a0512, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topBound: 30
-  lowerBound: -10
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -906,10 +830,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3912960062770184909, guid: 82a65ac76e53b984e9ae002e319c5b99, type: 3}
-      propertyPath: speed
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a65ac76e53b984e9ae002e319c5b99, type: 3}
 --- !u!1001 &4363912545934929886
@@ -967,10 +887,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animal_Fox_02
       objectReference: {fileID: 0}
-    - target: {fileID: 4511472310624408285, guid: bea7272846c183c42b90907ff61fba7f, type: 3}
-      propertyPath: speed
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bea7272846c183c42b90907ff61fba7f, type: 3}
 --- !u!1001 &8632218821924047704
@@ -980,10 +896,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1480829963038788519, guid: b9077d12d609435439d4f2926cf05303, type: 3}
-      propertyPath: speed
-      value: 2.2
-      objectReference: {fileID: 0}
     - target: {fileID: 8632218821988686367, guid: b9077d12d609435439d4f2926cf05303, type: 3}
       propertyPath: m_RootOrder
       value: 4
