@@ -554,9 +554,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 1042440570788127510, guid: 82a65ac76e53b984e9ae002e319c5b99, type: 3}
-  - {fileID: 4363912545426550869, guid: bea7272846c183c42b90907ff61fba7f, type: 3}
-  - {fileID: 8632218821988928621, guid: b9077d12d609435439d4f2926cf05303, type: 3}
+  - {fileID: 65890052}
+  - {fileID: 643260299}
+  - {fileID: 70125365}
 --- !u!4 &711004380
 Transform:
   m_ObjectHideFlags: 0
@@ -908,7 +908,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3912960062770184909, guid: 82a65ac76e53b984e9ae002e319c5b99, type: 3}
       propertyPath: speed
-      value: 2.1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82a65ac76e53b984e9ae002e319c5b99, type: 3}
@@ -969,7 +969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4511472310624408285, guid: bea7272846c183c42b90907ff61fba7f, type: 3}
       propertyPath: speed
-      value: 2.87
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bea7272846c183c42b90907ff61fba7f, type: 3}
@@ -982,7 +982,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1480829963038788519, guid: b9077d12d609435439d4f2926cf05303, type: 3}
       propertyPath: speed
-      value: 4.52
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 8632218821988686367, guid: b9077d12d609435439d4f2926cf05303, type: 3}
       propertyPath: m_RootOrder
